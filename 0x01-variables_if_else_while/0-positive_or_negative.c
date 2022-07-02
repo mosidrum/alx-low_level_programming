@@ -4,7 +4,12 @@
 /**
 *main -> This program will assign a random number to
 *the variable n each time it is executed.
+<<<<<<< HEAD
 *return : always 0
+=======
+*
+*return :always 0
+>>>>>>> bbc06110f553ff2772faf1dbdd9a0e96f0d3eef2
 */
 int main(void)
 {
