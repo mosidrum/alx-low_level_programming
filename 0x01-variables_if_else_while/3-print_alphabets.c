@@ -5,17 +5,17 @@
 * Description: Get a random number and check its last digit, compare it with 5
 * Return: 0
 */
+putchar('\n');
 int main(void)
 {
 char c;
 
 for (c = 'a'; c <= 'z'; c++)
 
-putchar(c);
+	putchar(c);
 for (c = 'A'; c <= 'Z'; c++)
 
 putchar(c);
 
-putchar('\n');
 return (0);
 }
