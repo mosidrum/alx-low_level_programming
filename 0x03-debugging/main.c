@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 
-
+/* positive_or_negative - checks if its positive or negative*/
 void positive_or_negative(int i)
 {
 int n;
