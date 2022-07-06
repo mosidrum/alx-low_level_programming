@@ -2,9 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-
-/* positive_or_negative - checks if its positive or negative*/
-void positive_or_negative(int i)
+/**
+*main -> This program will assign a random number to
+*the variable n each time it is executed.
+*
+*Return: 0 always when successful
+*/
+int main(void)
 {
 int n;
 
@@ -15,21 +19,6 @@ printf("%d is positive\n", n);
 if (n == 0)
 printf("%d is zero\n", n);
 if (n < 0)
-{
 printf("%d is negative\n", n);
-}
-return (0);
-}
-/**
-* main - debugging example
-* Return: 0
-*/
-int main(void)
-{
-int i;
-
-i = 0;
-positive_or_negative(i);
-
 return (0);
 }
