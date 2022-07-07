@@ -2,7 +2,7 @@
 
 /**
 * print_numbers: checks code
-* return: 0 always 
+* return: 0 always
 */
 
 void print_numbers(void)
