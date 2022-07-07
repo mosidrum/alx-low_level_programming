@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
 * _isupper - checks the code
 * @c: a passed in argument
-* Return: _isupper is returned
-* Description: This program checks for upper or lower case alphabet
+* Return: 1 if c is uppercase and 0 otherwise
+* Description: a function that checks uppercase alphabet
 */
 
 int _isupper(int c)
@@ -15,9 +16,7 @@ int _isupper(int c)
 	for (i = 'A'; i < 'Z'; i++)
 	{
 		if (i == c)
-		{
 			_isupper = 1;
-		}
 	}
 	return (_isupper);
 }
