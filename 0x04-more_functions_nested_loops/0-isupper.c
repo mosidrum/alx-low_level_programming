@@ -1,6 +1,5 @@
-#include <stdio.h>
 #include "main.h"
-
+#include <stdio.h>
 /**
 * _isupper - checks the code
 * @c: a passed in argument
