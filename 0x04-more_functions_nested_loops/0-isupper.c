@@ -3,7 +3,7 @@
 
 /**
 * _isupper - checks the code
-*@c - a passed in argument
+* @c - a passed in argument
 * Return: _isupper is returned
 * Description: This program checks for upper or lower case alphabet
 */
