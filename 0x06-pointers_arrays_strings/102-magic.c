@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* main -> mi function*/
+
 int main(void)
 {
 int n;
