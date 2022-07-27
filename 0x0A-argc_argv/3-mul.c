@@ -21,4 +21,5 @@ int main(int argc, char *argv[] __attribute__((unused)))
 	num2 = atoi (argv[2]);
 
 	result = num1 * num2;
+	return 0;
 }
