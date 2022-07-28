@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
-*main -> This is  a program to prints its name
+*main -> This is  a program to mutiply
 *@argc: argc parameters
 *@argv: an array of commands listed
 *Return: 0 for success
