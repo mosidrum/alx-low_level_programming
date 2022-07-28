@@ -8,7 +8,7 @@
 *Return: 0 for success
 */
 
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[])
 {
 	int result =0, num1, num2;
 
@@ -19,7 +19,8 @@ int main(int argc, char *argv[] __attribute__((unused)))
 	}
 	num1 = atoi (argv[1]);
 	num2 = atoi (argv[2]);
-
 	result = num1 * num2;
+
+	printf("%d\n", result);
 	return 0;
 }
