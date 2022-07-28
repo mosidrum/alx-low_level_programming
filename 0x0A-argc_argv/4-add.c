@@ -12,11 +12,6 @@ int main(int argc, char *argv[])
 {
 	int result, x, y, z, num;
 
-	if (argc == 1)
-	{
-		print("0\n");
-	}
-
 	for (x = 1; x < argc; x++)
 	{
 		for (y = 0; argv[x][y] != '\0'; y++)
