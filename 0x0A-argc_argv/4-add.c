@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int result, x, y, z, num;
+	int result = 0, x, y, z, num;
 
 	for (x = 1; x < argc; x++)
 	{
