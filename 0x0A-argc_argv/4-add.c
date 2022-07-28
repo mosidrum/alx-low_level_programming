@@ -22,7 +22,6 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
-		
 	}
 	for (z = 1; z < argc; z++)
 	{
