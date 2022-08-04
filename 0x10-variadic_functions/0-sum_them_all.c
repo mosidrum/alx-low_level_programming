@@ -5,6 +5,8 @@
 /**
 * sum_them_all - functions that adds all numbers passed
 * @n: passed parameter
+* 
+* Return: 0 if n == 0
 */
 int sum_them_all(const unsigned int n, ...)
 {
