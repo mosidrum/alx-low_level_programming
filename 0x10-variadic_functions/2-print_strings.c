@@ -7,7 +7,6 @@
 *
 * Return: no return.
 */
-
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list valist;
@@ -29,6 +28,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			if (seperator)
 				printf("%s", seperator);
 	}
+	
 	printf("\n");
 	va_end(valist);
 }
