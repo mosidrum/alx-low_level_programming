@@ -1,12 +1,12 @@
 #include "variadic_functions.h"
 
 /**
-* print_strings -  a function that prints strings
-* @separator: string to be printed between the strings
-* @n: number of strings passed to the function.
-*
-* Return: no return.
-*/
+ * print_strings - prints strings.
+ * @separator: string to be printed between the strings.
+ * @n: number of strings passed to the function.
+ *
+ * Return: no return.
+ */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list valist;
@@ -22,11 +22,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (str)
 			printf("%s", str);
 		else
-			print("(nil)");
+			printf("(nil)");
 
 		if (i < n - 1)
-			if (seperator)
-				printf("%s", seperator);
+			if (separator)
+				printf("%s", separator);
 	}
 
 	printf("\n");
